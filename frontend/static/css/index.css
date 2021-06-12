@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+#counter {
+    font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+    font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: -4px -4px 0px #ff9e56;
+  background: repeating-linear-gradient(45deg, #f88230, #ffe316 1px, white 2px, white 3px);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: table;
+
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 100vh;
+}
+
+.menu-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 30px;
+}
+.click-container {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 0;
+}
+
+.click-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: fit-content;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.click-holder img {
+    height: 100%;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+.boost-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: Arial, serif;
+    font-size: 20px;
+    margin-left: 190px;
+}
+
+.boost-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+
+.boost {
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.auto {
+    background: hotpink;
+}
